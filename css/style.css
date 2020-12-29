@@ -1,0 +1,165 @@
+header {
+  text-align: center;
+  font-size: 25px;
+  font-family: "Courier New", Fantasy, "Amatic SC", cursive;
+  font-style: italic;
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
+  background-color: #033f63;
+  color: #fedc97;
+  padding: 1px;
+  line-height: 20px;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  font-family: "cursive";
+}
+
+header nav ul {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px 0 0;
+}
+
+header nav ul li:last-child a {
+  margin-right: 0;
+}
+
+body {
+  margin: 0;
+  background-color: #fedc97;
+}
+
+main {
+  padding-left: 10px;
+  margin: 0;
+}
+
+p {
+  margin-left: 25px;
+  font-size: 20px;
+  font-family: "Candara", "sans-serif", arial, "Montserrat";
+}
+
+li {
+  font-size: 20px;
+  font-family: "Candara", "sans-serif", arial, "Montserrat";
+  margin-bottom: 5px;
+}
+
+.intro > h2 {
+  font-family: "Candara", "sans-serif", arial, "Montserrat";
+}
+
+#contact > h2,
+#about-me > h2,
+#portfolio > h2 {
+  text-align: center;
+  font-family: Fantasy, "Montserrat Alternates", sans-serif;
+  font-size: 40px;
+}
+
+.footer {
+  background-color: #7c9885;
+  text-align: center;
+  padding: 1px;
+  margin: 0;
+  line-height: 20px;
+}
+
+a:link {
+  color: #7c9885;
+}
+a:visited {
+  color: #7c9885;
+}
+a:hover {
+  color: #02253b;
+}
+a:active {
+  color: #b8b8ff;
+}
+a[href^="tel:"] {
+  color: #7c9885;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+  margin: 10px;
+}
+
+@media all and (min-width: 800px) {
+  .group {
+    flex-direction: row;
+  }
+
+  section {
+    padding: 0 10%;
+  }
+
+  .item-double {
+    align-self: center;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  header nav {
+    margin-top: 8px;
+  }
+}
+
+.image {
+  width: 100%;
+}
+
+.image-round {
+  border-radius: 18px;
+  width: 100%;
+}
+
+#about-me {
+  background-color: #7c9885;
+}
+
+#portfolio {
+  text-align: center;
+}
+
+form {
+  padding-right: 8px;
+}
+
+form label {
+  display: block;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 160px;
+}
