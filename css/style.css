@@ -146,6 +146,17 @@ a[href^="tel:"] {
   text-align: center;
 }
 
+.clean-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#contact-info {
+  justify-content: center;
+  margin-left: 60px;
+}
+
 form {
   padding-right: 8px;
 }

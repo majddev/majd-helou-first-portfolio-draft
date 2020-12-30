@@ -34,18 +34,10 @@
         </div>
 
         <div class="item-double">
-
           <p>I am an aspiring software developer located in Allentown, Pennsylvania. <br> <br> Currently, I work as a
-            chief medical scribe in the emergency department.
-            I type the patients' stories and the doctors' plans using the Epic Electroinc Medical Records system. 
-            I always try to improve and find ways to make people's lives easier by using code.</p>
-
-          <p> I aspire to create: </p>
-          <ul>
-            <li> Efficient applications that solve all kinds of problems. </li>
-            <li> Scalable code that runs on every device. </li>
-            <li> Simple and beautiful interfaces with a complex backend. </li>
-          </ul>
+            chief medical scribe in the emergency department. I make doctors' jobs easier by capturing everything that
+            happens in the ER. <br> <br>
+            I am learning HTML, CSS, and JavaScript. </p>
         </div>
       </div>
     </section>
@@ -55,10 +47,20 @@
       <div class="group">
         <div class="item-double">
           <p> I discovered my obsession with finding patterns and figure out how to get to solutions, which led me to
-            programming! If I'm not working in the ER, then I'm enjoying some family time, swimming or MMA training!</p>
+            programming! If I'm not working in the ER, then I'm enjoying some family time, learning code, swimming or
+            MMA training!</p>
           <p> I began my journey as a software developer at Thinkful in October, 2020 - and I finally found my truest
-            passion. I'm very excited to work with different teams of programmers to solve problems.<br><br>
-            If you need help with web applications and sites, check out my contact information below!</p>
+            passion. </p>
+
+          <p> I aspire to create: </p>
+          <ul>
+            <li> Applications to help businesses manage their employees' records. </li>
+            <li> Applications to help individuals become more efficient and productive. </li>
+            <li> Scalable code that runs on every device. </li>
+          </ul>
+          <p>
+            I'm very excited to work with different teams of programmers to solve problems. If you need help with web
+            applications and sites, check out my contact information below!</p>
         </div>
         <div class="item">
           <img src="images/laptop-in-ER.jpg" alt="Picture of Laptop in ER" class="image-round" />
@@ -72,30 +74,54 @@
         <div class="item">
           <img src="images/placeholder.png" alt="This is a placeholder picture for the to-do app" class="image-round">
           <h3>To-do Score App</h3>
-          <p>I plan to create a to-do app with JavaScript. The goal is to have the user take a self-evaluation
-            (work, happiness, personal relationships, and personal goals) where they get a "score". That score then
-            gets adjusted based on the user's adherence to their goals/aspirations.</p>
+          <ul class="clean-list">
+            <li><b>Purpose:</b> Have the user take a self-evaluation (work, happiness, personal relationships, and
+              personal goals) where they get a "score". That score then
+              gets adjusted based on the user's adherence to their goals/aspirations</li>
+            <li><b>Technical Stack:</b> HTML, CSS, JavaScript, and React.js</li>
+            <li><b>Link to Source Code:</b> <a href="#">Example Link</a></li>
+            <li><b>Link to Application:</b><a href="#">Example Link</a></li>
+          </ul>
         </div>
 
         <div class='item'>
           <img src="images/placeholder.png" alt="This is a placeholder picture for the workout app" class="image-round">
-          <h3>Workout App</h3>
-          <p>I plan to create an app to track workouts using JavaScript. Users can bookmark certain workouts and set
-            up daily/weekly routines as they like.</p>
+          <h3>Health App</h3>
+          <ul class="clean-list">
+            <li><b>Purpose:</b>Create an application that tracks workouts and diet. Users can bookmark certain workouts
+              and set
+              up daily/weekly routines as they like. </li>
+            <li><b>Technical Stack:</b> HTML, CSS, JavaScript, and React.js</li>
+            <li><b>Link to Source Code:</b> <a href="#">Example Link</a></li>
+            <li><b>Link to Application:</b><a href="#">Example Link</a></li>
+          </ul>
         </div>
       </div>
 
       <div class='group'>
         <div class='item'>
-          <img src="images/placeholder.png" alt="Pet App Screenshot" class="image-round">
+          <img src="images/placeholder.png" alt="This is a placeholder picture for the Excel app" class="image-round">
           <h3>Excel data comparison App</h3>
-          <p>The goal is to make an app that compares different Excel sheets and output where there are differences.
-            This would be targeted toward my uncle's FedEx business. I plan to use JavaScript.</p>
+          <ul class="clean-list">
+            <li><b>Purpose:</b>Create an application that compares different Excel sheets and automatically fix errors
+              based on a given template. This would be targeted toward my uncle's FedEx business. </li>
+            <li><b>Technical Stack:</b> HTML, CSS, JavaScript, and React.js</li>
+            <li><b>Link to Source Code:</b> <a href="#">Example Link</a></li>
+            <li><b>Link to Application:</b><a href="#">Example Link</a></li>
+          </ul>
         </div>
         <div class="item">
-          <img src="images/placeholder.png" alt="Pet App Screenshot" class="image-round">
+          <img src="images/placeholder.png" alt="This is a placeholder picture for the appointments app"
+            class="image-round">
           <h3>Appointments App</h3>
-          <p>The goal is to make an app to help a barber friend with appointments. It would sync with iCal or Google Calendar to manage appointments. I plan to use JavaScript for this project.</p>
+          <ul class="clean-list">
+            <li><b>Purpose:</b>The goal is to make an app to help a barber friend with appointments. It would sync with
+              iCal or Google
+              Calendar to manage appointments. </li>
+            <li><b>Technical Stack:</b> HTML, CSS, JavaScript, and React.js</li>
+            <li><b>Link to Source Code:</b> <a href="#">Example Link</a></li>
+            <li><b>Link to Application:</b><a href="#">Example Link</a></li>
+          </ul>
         </div>
       </div>
     </section>
@@ -106,17 +132,17 @@
         <div class="item">
           <form action="https://formspree.io/f/mleooojb" method="POST">
             <label for="name"> Name:</label>
-            <input id="name" type="text" name="name">
+            <input id="name" type="text" name="name" required>
 
             <label for="email">Email:</label>
-            <input id="email" type="text" name="email">
+            <input id="email" type="email" name="email" required>
 
             <label for="message">Message:</label>
             <textarea id="message" name="message"></textarea>
             <button type="submit">Submit</button>
           </form>
         </div>
-        <div class="item-double">
+        <div class="item" id="contact-info">
           <ul>
             <li> <a href="mailto:mhelou@outlook.com" target="_blank">E-mail </a> </li>
             <li> <a href="https://www.linkedin.com/in/majdhelou/" target="_blank">LinkedIn </a> </li>
@@ -127,7 +153,7 @@
         <div class="item">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96949.41495593415!2d-75.55385992891256!3d40.59305629807412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c439929f4adce1%3A0xeaf9df4b246824a1!2sAllentown%2C%20PA!5e0!3m2!1sen!2sus!4v1604603130003!5m2!1sen!2sus"
-            width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            style="border:0;" aria-hidden="false" tabindex="0"></iframe>
         </div>
       </div>
     </section>
